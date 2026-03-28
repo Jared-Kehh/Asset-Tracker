@@ -1,0 +1,63 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 18px;
+}
+
+.fullWidth { grid-column: span 2; }
+
+.field {
+  padding: 11px 14px;
+  background: #f8fafc;
+  border-radius: 10px;
+  border: 1px solid #f1f5f9;
+}
+
+.fieldLabel {
+  font-size: 10px;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+
+.fieldValue {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.mono { font-family: var(--font-mono); font-size: 13px; }
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 18px;
+}
+
+.deleteBtn {
+  padding: 9px 18px;
+  border-radius: 8px;
+  border: 1.5px solid #fee2e2;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  color: #dc2626;
+  transition: background 0.15s;
+}
+.deleteBtn:hover { background: #fef2f2; }
+
+.editBtn {
+  padding: 9px 24px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(79,70,229,0.25);
+  transition: opacity 0.15s;
+}
+.editBtn:hover { opacity: 0.9; }

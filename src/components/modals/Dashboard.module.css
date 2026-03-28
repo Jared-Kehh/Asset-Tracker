@@ -1,0 +1,74 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.fullWidth { grid-column: span 2; }
+
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 22px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.cardTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+
+.barRow { margin-bottom: 10px; }
+
+.barMeta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.barLabel { font-weight: 600; color: #374151; }
+.barCount  { color: #64748b; }
+
+.barTrack {
+  height: 7px;
+  background: #f1f5f9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.statusGrid {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.statusCard {
+  flex: 1 1 150px;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.statusCount {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.statusLabel {
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+.empty { color: #94a3b8; font-size: 13px; }

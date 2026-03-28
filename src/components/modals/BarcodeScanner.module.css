@@ -1,0 +1,98 @@
+.scanner { text-align: center; }
+
+.hint {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.cameraBtn {
+  padding: 12px 28px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 14px rgba(79,70,229,0.3);
+  transition: opacity 0.15s;
+}
+.cameraBtn:hover { opacity: 0.9; }
+
+.videoWrap { margin-bottom: 20px; }
+
+.video {
+  width: 100%;
+  border-radius: 12px;
+  max-height: 260px;
+  background: #000;
+  object-fit: cover;
+}
+
+.videoHint {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.stopBtn {
+  padding: 7px 18px;
+  border-radius: 8px;
+  border: 1.5px solid #e2e8f0;
+  background: #fff;
+  font-size: 13px;
+  color: #64748b;
+  transition: background 0.15s;
+}
+.stopBtn:hover { background: #f8fafc; }
+
+.manualBox {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1.5px dashed #cbd5e1;
+  text-align: left;
+}
+
+.manualLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.manualRow {
+  display: flex;
+  gap: 8px;
+}
+
+.manualInput {
+  flex: 1;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 9px 12px;
+  font-size: 14px;
+  color: #0f172a;
+  background: #fff;
+  font-family: var(--font-sans);
+}
+.manualInput:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+}
+
+.useBtn {
+  padding: 9px 20px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  transition: opacity 0.15s;
+}
+.useBtn:hover { opacity: 0.9; }
